@@ -1,0 +1,32 @@
+========================================================
+TRABAJO DE FIN DE MASTER
+========================================================
+
+Título: Extracción de Datos de Redes Sociales - Instagram
+
+Participantes:
+- Kenyie Araya Ramos
+- Kricia Valverde Rodríguez
+
+Director del TFM:
+- Tomás Miguel Sureda Riera
+
+Universidad:
+- Universidad Internacional de la Rioja (UNIR)
+
+Programa:
+- Máster Universitario en Ciberseguridad
+
+========================================================
+Resumen
+========================================================
+Este Trabajo de Fin de Máster (TFM) tiene como objetivo el desarrollo de una herramienta de software que permite la extracción de datos 
+de cuentas de Instagram mediante técnicas de scraping, con el fin de evaluar si una cuenta es un bot o una cuenta falsa. 
+
+El proyecto aborda el análisis de perfiles en redes sociales, haciendo uso de herramientas y métodos de ciberseguridad para detectar 
+comportamientos automatizados y fraudulentos en plataformas digitales.
+
+========================================================
+Fecha de Desarrollos
+========================================================
+- Noviembre 2024

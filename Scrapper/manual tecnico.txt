@@ -1,0 +1,147 @@
+########################################################
+
+Manual Técnico - Analizador de Cuentas de Instagram
+
+########################################################
+
+========================================================
+Descripción General
+
+Este manual técnico describe la implementación y funcionalidad del script “Analizador de Cuentas de Instagram”. Proporciona información detallada sobre su estructura, configuración, y cómo realizar modificaciones o resolver problemas técnicos.
+
+========================================================
+Requisitos
+========================================================
+
+Entorno de Desarrollo
+
+Python 3.7 o superior.
+
+Editor de texto o IDE (recomendado: Visual Studio Code o PyCharm).
+
+Librerías Necesarias:
+
+instaloader
+
+collections
+
+time
+
+random
+
+Instalación de dependencias:
+
+pip install instaloader
+
+Sistema Operativo
+
+Compatible con Windows, macOS y Linux.
+
+========================================================
+Estructura del Proyecto
+========================================================
+
+Archivo Principal:
+
+Contiene el código fuente del script.
+
+Ejecuta las funciones principales para autenticar al usuario y analizar perfiles de Instagram.
+
+Funciones Principales:
+
+calcular_puntaje_calidad:
+
+Entrada: Datos del perfil y métricas analizadas.
+
+Salida: Puntaje de calidad del perfil.
+
+Descripción: Evalúa la calidad de un perfil basándose en factores como seguidores, engagement y uso de hashtags.
+
+analizar_cuenta:
+
+Entrada: Nombre de usuario del perfil a analizar.
+
+Salida: Métricas analizadas, puntaje de calidad y clasificaciones.
+
+Descripción: Realiza la autenticación, recopila datos del perfil y calcula las métricas clave.
+
+========================================================
+Configuración
+========================================================
+
+Autenticación:
+
+El script utiliza las credenciales del usuario para autenticar y cargar datos de perfiles privados.
+
+La sesión se guarda en un archivo local para evitar ingresar credenciales repetidamente.
+
+Modificación del Archivo:
+
+Cambiar configuraciones o personalizar funciones:
+
+Editar directamente el archivo principal.
+
+Actualizar mensajes de entrada o lógica de análisis según sea necesario.
+
+Control de Límites:
+
+El script está diseñado para analizar solo las últimas 10 publicaciones.
+
+Pausas aleatorias (time.sleep) evitan bloqueos por parte de Instagram.
+
+========================================================
+Mensajes y Visualización
+========================================================
+
+Entrada de Datos:
+
+Los mensajes para el usuario están diseñados para ser claros y atractivos.
+
+Ejemplo:
+
+"Ingresa tu nombre de usuario de Instagram:"
+
+"Proporciona la cuenta a analizar:"
+
+Resultados:
+
+Los resultados del análisis se presentan con separadores y formato estructurado.
+
+Ejemplo:
+
+===========================
+   Resultados del Análisis
+===========================
+Seguidores: 1500
+Seguidos: 500
+Engagement: 3.45%
+Puntaje de Calidad: 85/100
+
+========================================================
+Solución de Problemas
+
+Error: "La cuenta no existe"
+
+Verificar que el nombre de usuario proporcionado sea correcto.
+
+Comprobar la conexión a Internet.
+
+Error de Autenticación:
+
+Asegúrate de ingresar las credenciales correctas.
+
+Verifica que tu cuenta no tenga restricciones adicionales (2FA).
+
+Rendimiento Lento:
+
+Reducir el número de publicaciones analizadas.
+
+Aumentar la velocidad disminuyendo las pausas aleatorias (time.sleep).
+
+========================================================
+Seguridad
+========================================================
+
+Las credenciales se almacenan temporalmente para la sesión activa y no se envían a terceros.
+
+Asegúrate de ejecutar el script en un entorno seguro para evitar riesgos.
